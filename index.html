@@ -1,26 +1,188 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Gastronomia</title>
+    <title>Blog Tu Cocina</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
   </head>
-  <body>
-    <div class="row">
-      <div class="callout large-4 medium-5 columns">
-        <h1>Tu Cocina</h1>
-        <h6>El sabor de lo criollo</h6>
+  <body class="contenedor-sitio">
+    <div class="row contenedor-principal">
+
+      <div class="row">
+        <div class="column large-4 medium-12 small-12 contenedor-encabezado">
+          <h1 class="text-center">Tu Cocina</h1>
+          <h5 class="text-right show-for-large"><em>El sabor de lo criollo</em></h5>
+          <h5 class="text-center hide-for-large"><em>El sabor de lo criollo</em></h5>
+        </div>
+        <div class="column large-8"></div>
+        <hr>
       </div>
-      <div class="callout"></div>
-    </div>
 
+      <br>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+      <div class="row contenedor-secundario">
+
+          <div class="column large-4 medium-12 small-12 show-for-large contenedor-columna-izq">
+
+            <div class="row column text-center">
+              <form>
+                <div class="input-group">
+                  <input class="input-group-field" type="text">
+                  <div class="input-group-button">
+                    <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass size-48"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="row column contenedor-navegacion text-center">
+              <ul class="vertical menu">
+                <li><a href="#" class="button hollow">Inicio</a></li>
+                <li><a href="#"class="button hollow">Mi Plato Perfecto</a></li>
+                <li><a href="#"class="button hollow">Recetas</a></li>
+              </ul>
+            </div>
+            <br>
+
+            <div class="row column large-uncollapse contenedor-favoritos">
+              <h5>Favoritos</h5>
+              <div class="column large-4">
+                <div class="secondary callout secondary text-center">
+                  <img src="img/arepa.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+
+              <div class="column large-4">
+                <div class="secondary callout secondary text-center">
+                  <img src="img/asado.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+
+              <div class="column large-4">
+                <div class="secondary callout secondary text-center">
+                  <img src="img/cachapa.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+            </div>
+
+            <div class="row column large-uncollapse show-for-large">
+              <div class="column large-4">
+                <div class="secondary callout secondary text-center">
+                  <img src="img/hallacas.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+
+              <div class="column large-4">
+                <div class="secondary callout text-center">
+                  <img src="img/pabellon.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+
+              <div class="column large-4">
+                <div class="secondary callout text-center">
+                  <img src="img/pizca.jpg" alt="arepa" class="thumbnail">
+                </div>
+              </div>
+            </div>
+
+            <div class="row column contenedor-historial">
+              <h5>Historial</h5>
+              <ul>
+                <li><a href="#">Galletas de avena</a></li>
+                <li><a href="#">Pasta Frola</a></li>
+                <li><a href="#">Lemon Pie</a></li>
+                <li><a href="#">Alfajores de Maizena</a></li>
+                <li><a href="#">Cheescake</a></li>
+                <li><a href="#">Torta de Chocolate</a></li>
+                <li><a href="#">Tarta de jamon</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="column large-8 contenedor-contenido">
+            <div class="row column publicacion">
+              <h2>Torta de Mandarina y Miel</h2>
+              <h6><em>5 de Enero de 2019</em></h6>
+              <img src="img/torta-de-mandarina-y-miel.png" alt="Receta" class="small-12 thumbnail">
+                <p class="text-justify">Primero se debe cortar las mandarinas en cuartos y sacarles las semillas, licuarlas junto con los huevos, el aceite y la miel.Luego, volcarlo dentro de un bowl e incorporar suavemente la harina tamizada con la Maizena.Seguidamente, llevar la mezcla a un molde enmantecado y enharinado y hornear a fuego moderado durante aproximadamente 50 minutos.Por ultimo, dejar enfriar, espolvorear con azúcar impalpable y servir.</p>
+            </div>
+
+            <div class="row column contenedor-comentarios">
+              <form>
+                <label><strong>Escriba un comentario:</strong>
+                  <textarea name="comentario" rows="2" cols="80"></textarea>
+                </label>
+                <input type="submit" class="button" name="Enviar" value="Enviar">
+              </form>
+            </div>
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-mujer.jpg" width="80px"/>
+                <p><strong>camila_ramgom:</strong>Me encantan tus recetas</p>
+              </div>
+            </div>
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-hombre.jpg" width="80px"/>
+                <p><strong>bartolito:</strong>espero conseguir todos los ingredientes</p>
+              </div>
+            </div>
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-mujer.jpg" width="80px"/>
+                <p><strong>molly:</strong>a mis hijos les encanto</p>
+              </div>
+            </div>
+
+            <div class="row column publicacion">
+              <h2>Vasitos Galletitas</h2>
+              <h6><em>5 de Enero de 2019</em></h6>
+              <img src="img/vasitos.png" alt="Receta" class="small-12 thumbnail">
+                <p class="text-justify">Primero, en un bowl, mezclar la manteca y el azúcar hasta integrar bien. Segundo, sumar el huevo y la esencia de vainilla, mezclar un poco más para incorporar la harina y luego la Maizena. Tercero, amasar hasta formar una masa homogénea que no se pegotee en la mesa ni se quiebre. Seguidamente, espolvorear un papel film y llevar a la heladera por 30 minutos. Luego, espolvorear harina en una mesada y estirar la masa con la ayuda de un palo de amasar. Por ultimo, enmantecar y enharinar vasitos de aluminio (los que se usan para el volcán de chocolate), sino pueden usarse las planchas para cupcakes, la diferencia es que las últimas tienen menos altura.
+                </p>
+            </div>
+
+            <div class="row column contenedor-comentarios">
+              <form>
+                <label><strong>Escriba un comentario:</strong>
+                  <textarea name="comentario" rows="2" cols="80"></textarea>
+                </label>
+                <input type="submit" class="button" name="Enviar" value="Enviar">
+              </form>
+            </div>
+
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-mujer.jpg" width="80px"/>
+                <p><strong>tere57:</strong>Se ve riquisima la receta! gracias por compartirla.</p>
+              </div>
+            </div>
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-hombre.jpg" width="80px"/>
+                <p><strong>carloslg:</strong>Parece facil.. voy a intentar hacerla</p>
+              </div>
+            </div>
+            <div class="row column contenedor-historial-comentarios">
+              <div class="callout">
+                <img src="img/avatar-mujer.jpg" width="80px"/>
+                <p><strong>marijo5:</strong>facil y practica</p>
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/what-input.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/foundation.min.js" charset="utf-8"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,114 @@
+.contenedor-sitio{
+	background: url(../img/cocina.jpg) left top repeat;
+}
+
+.contenedor-principal{
+	background: rgba(19, 49, 99, 0.7);
+	margin-bottom: 0;
+}
+
+.contenedor-encabezado{
+	color:white;
+
+}
+
+.contenedor-columna-izq{
+	background-color: rgba(249, 234, 194, 0.8);
+	padding-top:10px;
+	border-radius: 10px;
+
+}
+
+.contenedor-secundario{
+	margin-left: 0 !important;
+	margin-right:0 !important;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.contenedor-navegacion ul li a{
+	font-size: 1.3em;
+}
+
+.contenedor-favoritos h5{
+	color:#1779ba;
+	font-size: 1.5em;
+}
+
+
+.contenedor-historial ul li {
+	list-style-type: none;
+}
+
+.contenedor-historial ul li a:link {
+	color: blue;
+}
+
+.contenedor-historial ul li a:visited {
+	color: green;
+}
+
+.contenedor-historial h5{
+	color:#1779ba;
+	font-size: 1.5em;
+}
+
+.contenedor-historial ul li a{
+	font-size: 1.2em;
+}
+
+.contenedor-contenido {
+	background-color: rgba(247, 98, 57, 0.7);
+	border-radius: 10px;
+}
+.contenedor-contenido h1{
+	margin-top:0;
+	padding-top:0;
+	color:white;
+}
+
+.contenedor-contenido .publicacion h2{
+	color:white;
+}
+.contenedor-contenido h6{
+	color: yellow;
+}
+
+.contenedor-comentarios form label {
+	color:white;
+}
+
+.contenedor-contenido .publicacion p{
+	color:white;
+	font-size:1.2em;
+}
+
+.contenedor-icono img{
+	height:30px;
+}
+
+.contenedor-texto form label{
+	border-radius: 10px;
+}
+
+.contenedor-texto form label textarea{
+	border-radius: 10px;
+	min-height:30px;
+	font-size: 15px;
+	line-height: 0.5;
+	padding-top:1px 0 !important;
+
+}
+
+.contenedor-historial-comentarios .callout{
+	border-radius: 10px;
+}
+
+.contenedor-historial-comentarios .callout p{
+	line-height: 0.5;
+}
+
+.contenedor-historial-comentarios .callout img, .contenedor-historial-comentarios .callout p{
+	display:inline;
+
+}
